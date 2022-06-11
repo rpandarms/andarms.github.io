@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, rgba(218, 82, 207, 0.5), rgba(237, 99, 145, 0.5));
+}
+
+table {
+    width: 60%;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+table tr td {
+    padding: 10px;
+    border: 1px solid rosybrown;
+    background-color: thistle;
+}
+
+thead th {
+    font-weight: bold;
+}
+
+table tr td:hover{  
+    background: plum;
+    font-size: 13pt;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+footer {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    border: 1px black solid;
+    background-color: thistle;
+}
